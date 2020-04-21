@@ -1,21 +1,5 @@
-# NodeJS Template Project
-### Template for a project using NodeJS with: Express, Express-Handlebars, Morgan, MySQL, Nodemon and Path
-
-Steps to Follow:
-
-`git clone https://github.com/v1ctormoreno/template_nodejsproject`
-
-`npm i`
-
-Run without nodemon
-
-`npm start`
-
-Run with nodemon
-
-`npm run dev`
-
-
+# Web personal
+Mi web personal, usa NodeJS. Hosteada en mi servidor propio.
 #### Cualquier duda:
 
 * [Telegram](https://t.me/v1ctormoreno) (@v1ctormoreno).

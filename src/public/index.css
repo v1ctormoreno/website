@@ -1,6 +1,9 @@
 p.index{
   font-size: 14px;
 }
+h1.typewriter{
+		text-align: center !important;
+}
 body{
     color: white !important;
     font-family: 'Roboto', sans-serif;
@@ -102,12 +105,16 @@ a {
 }
 
 .footer {
-    position: absolute;
-    text-align: center !important;
-
-  right: 0;
+text-align: center !important;
+  position: absolute;
   bottom: 0;
-  left: 0;
+  width: 100%;
   background-image: linear-gradient(#000000, #0f0f0f);
-  text-align: center;
+    flex-shrink: none !important;
+
+}
+
+html {
+	position: relative;
+	min-height: 100%;
 }

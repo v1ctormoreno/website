@@ -23,6 +23,7 @@ app.set('view engine', '.hbs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(require(`./routes/default.routes`));
+app.use(require(`./routes/redirects.routes`));
 
 app.use(morgan('dev'));
 app.use(express.urlencoded({

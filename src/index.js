@@ -2,10 +2,10 @@ const express = require('express');
 const path = require('path');
 const morgan = require('morgan')
 const exphbs = require('express-handlebars');
-const pool = require('./database')
+//const pool = require('./database')
 
 const app = express();
-require('./database');
+//require('./database');
 
 //Middleware
 app.set('port', process.env.PORT || 4000);

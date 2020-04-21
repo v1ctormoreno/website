@@ -16,5 +16,12 @@ router.get('/contact', (req, res) => {
         res.render(`pages/contact`);
 
 })
+router.get('/projects', (req, res) => {
+        res.render('pages/projects');
+})
+router.get('/cookies', (req, res) => {
+        res.render('pages/cookies');
+})
+
 
 module.exports=router;

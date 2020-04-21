@@ -20,6 +20,8 @@ body{
 	position: fixed;
 	top: 68%;
 	left: 50%;
+	font-size: 13.2px;
+
 	/* bring your own prefixes */
 	transform: translate(-50%, -50%);
 }

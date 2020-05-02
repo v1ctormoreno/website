@@ -3,7 +3,7 @@ const router = require('express').Router();
 
 router.get('/', (req, res) => {
         res.render(`pages/index`);
-    });
+});
 router.get('/uses', (req, res) => {
         res.render(`pages/uses`);
 
@@ -22,6 +22,13 @@ router.get('/projects', (req, res) => {
 router.get('/cookies', (req, res) => {
         res.render('pages/cookies');
 })
-
-
-module.exports=router;
+router.get('/donations', (req, res) => {
+        res.render('pages/donations')
+})
+router.get('/donations/btc', (req, res) => {
+        res.render('pages/btc');
+})
+router.get('/*', (req, res) => {
+        res.render('pages/404')
+})
+module.exports = router;

@@ -1,6 +1,9 @@
 p.index{
   font-size: 14px;
 }
+#index{
+	text-align: center;
+}
 h1.typewriter{
 		text-align: center !important;
 }
@@ -18,7 +21,16 @@ body{
 }
 .pages {
 	position: fixed;
-	top: 68%;
+	top: 60%;
+	left: 50%;
+	font-size: 20px;
+
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
+.donations {
+	position: fixed;
+	top: 75%;
 	left: 50%;
 	font-size: 13.2px;
 
@@ -119,4 +131,12 @@ text-align: center !important;
 html {
 	position: relative;
 	min-height: 100%;
+}
+@media (max-width: 400px){
+	h1.main{
+		font-size: 25px;
+	}
+	.pages {
+		font-size: 13.2px;
+	}
 }

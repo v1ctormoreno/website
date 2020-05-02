@@ -24,7 +24,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(require(`./routes/default.routes`));
 app.use(require(`./routes/redirects.routes`));
-
+/* app.use(function (req, res, next) {
+    return res.status(404).render('pages/404');
+});*/
 app.use(morgan('dev'));
 app.use(express.urlencoded({
     extended: false

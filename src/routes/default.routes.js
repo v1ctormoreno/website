@@ -31,7 +31,5 @@ router.get('/donations/btc', (req, res) => {
 router.get('/contactbusiness', (req, res) => {
         res.render('pages/contactbusiness');
 })
-router.get('/*', (req, res) => {
-        res.render('pages/404')
-})
+
 module.exports = router;

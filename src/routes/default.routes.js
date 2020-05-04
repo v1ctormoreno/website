@@ -28,6 +28,9 @@ router.get('/donations', (req, res) => {
 router.get('/donations/btc', (req, res) => {
         res.render('pages/btc');
 })
+router.get('/contactbusiness', (req, res) => {
+        res.render('pages/contactbusiness');
+})
 router.get('/*', (req, res) => {
         res.render('pages/404')
 })

@@ -14,6 +14,7 @@ span.title-subsub a{
 }
 #donationspage {
     text-align: center;
+    
 }
 #donationsspan {
        position: fixed;
@@ -45,7 +46,26 @@ span.title-subsub a{
 width: auto;
 height: auto;
 }
+.contactb {
+    text-align: center;
+        position: fixed;
+        top: 60%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+        }
+
+
 .clearfix{
     clear: both;
     float:none;
+}
+@media (max-width: 400px) {
+    h1.main {
+        font-size: 25px;
+    }
+
+    .pages {
+        font-size: 13.2px;
+    }
 }

@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/v1ctormoreno
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://v1ctor.es
+  * I am v1ctormoreno (https://keybase.io/v1ctormoreno) on keybase.
+  * I have a public key ASDP_BB_y-yOT8V5xw9b7dxJD6-8A7g5zBMZE3T4eojFawo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cffc107fcbec8e4fc579c70f5beddc490fafbc03b839cc13191374f87a88c56b0a",
+      "host": "keybase.io",
+      "kid": "0120cffc107fcbec8e4fc579c70f5beddc490fafbc03b839cc13191374f87a88c56b0a",
+      "uid": "ff244602d8a3a31e08896c1a664c3619",
+      "username": "v1ctormoreno"
+    },
+    "merkle_root": {
+      "ctime": 1589118154,
+      "hash": "52c17016e62eb9ed8bb0b16802a9532a2daedc763f927847b20b3e8fa2c9f3befc78f9762e097af31bef946e70891a2e7a417fe9d15fef94619bd9ff067af117",
+      "hash_meta": "08f6d8d5f21b11ba50e245adb260e3e5b7244abe7e004692c6126505fbe71e05",
+      "seqno": 16241522
+    },
+    "service": {
+      "entropy": "gE+cevLfF5YQIoTojRIZ6B9V",
+      "hostname": "v1ctor.es",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1589118181,
+  "expire_in": 504576000,
+  "prev": "f024e914989a64062ca38b59a6c0a34d15df07998fe80740c0b980ea9da61524",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgz/wQf8vsjk/FeccPW+3cSQ+vvAO4OcwTGRN0+HqIxWsKp3BheWxvYWTESpcCC8Qg8CTpFJiaZAYso4tZpsCjTRXfB5mP6AdAwLmA6p2mFSTEIIiVX7OMToxauCfgTXPbPC+vUkUcfFYloeb8QsyljOvNAgHCo3NpZ8RAR/zEvYXC8tY8AQJIRTWK6M7v1VhItTzWU9Hri+3rtfcIDoKl31v5d0XSmjlZFR1mbq6YKjkza7DIo7ZWSkrlDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAhKMWYkNkfpf5EIx9f2YaGJRX63hNd3NZbvViLWijQBo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/v1ctormoreno
+
+==================================================================

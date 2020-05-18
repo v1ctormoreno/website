@@ -4,8 +4,8 @@ const router = require('express').Router();
 router.get('/controlaccesos', (req, res) => {
     res.redirect('https://github.com/v1ctormoreno/controlaccesos_arduino');
 })
-router.get('/referidodhosting', (req, res) => {
-    res.redirect('https://dinahosting.com/?affref=5EC2BB8568FF7');
+router.get('/dhosting', (req, res) => {
+    res.redirect('https://dinahosting.com/?affref=5EC2BB8568FF7&utm_affcmpgn=webpersonal');
 })
 
 

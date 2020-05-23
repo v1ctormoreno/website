@@ -7,6 +7,9 @@ router.get('/controlaccesos', (req, res) => {
 router.get('/dhosting', (req, res) => {
     res.redirect('https://dinahosting.com/?affref=5EC2BB8568FF7&utm_affcmpgn=webpersonal');
 })
+router.get('/bookameeting', (req, res) => {
+    res.redirect('https://victormoreno.youcanbook.me/');
+})
 
 
 module.exports = router;

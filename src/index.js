@@ -4,6 +4,8 @@ const morgan = require('morgan'); //the weird logger
 const exphbs = require('express-handlebars');
 //const pool = require('./database')
 
+
+//testing, atention please.
 const app = express();
 //require('./database');
 

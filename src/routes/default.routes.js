@@ -31,5 +31,8 @@ router.get('/donations/btc', (req, res) => {
 router.get('/business', (req, res) => {
         res.render('pages/business');
 })
+router.get('/cv', (req, res) => {
+        res.render('pages/cv');
+})
 
 module.exports = router;

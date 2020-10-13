@@ -10,6 +10,9 @@ router.get('/dhosting', (req, res) => {
 router.get('/bookameeting', (req, res) => {
     res.redirect('https://victormoreno.youcanbook.me/');
 })
+router.get('/tvisita', (req, res) => {
+    res.redirect('https://portfolio.victormoreno.es/');
+})
 
 
 module.exports = router;

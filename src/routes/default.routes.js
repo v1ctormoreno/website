@@ -13,7 +13,9 @@ router.get('/about', (req, res) => {
 
 })
 router.get('/contact', (req, res) => {
-        res.render(`pages/contact`);
+        /* res.render(`pages/contact`); */
+        /* tired of stupid spam email every day, changing this 29/12/2020 - i am already my own boss f*cking scammers */
+        res.redirect('https://v1ctor.es');
 
 })
 router.get('/projects', (req, res) => {

@@ -1,0 +1,6 @@
+[submodule "hugo/victor/themes/hello-friend-ng"]
+	path = hugo/victor/themes/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "hugo/victor/themes/vncnt-hugo"]
+	path = hugo/victor/themes/vncnt-hugo
+	url = https://github.com/fncnt/vncnt-hugo
